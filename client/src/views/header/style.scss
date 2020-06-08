@@ -1,0 +1,31 @@
+header {
+  position: fixed;
+  z-index: 120;
+  width: 100%;
+  -webkit-box-shadow: 0 3px 15px 0 rgba(0,0,0,.19);
+  box-shadow: 0 3px 15px 0 rgba(0,0,0,.19);
+  -webkit-animation: scaleIn .3s ease-in-out;
+  animation: scaleIn .3s ease-in-out;
+  top: 0;
+  padding: 20px 0;
+  background-color: #fff;
+  .submenu {
+    position: relative;
+    cursor: pointer;
+    padding: .78571429em .92857143em;
+    margin: 0 .35714286em;
+    .submenu-items {
+      display: none;
+      box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 4px;
+      position: absolute;
+      background: #ffff;
+      z-index: 2;
+    }
+    &:hover {
+      .submenu-items {
+        display: block;
+      }
+    }
+  }
+}

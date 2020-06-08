@@ -1,0 +1,27 @@
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+
+.page-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  padding: 40px 0;
+}
+.hero-title{
+  width: 100%;
+}
+
+.content-wrapper {
+  margin-top: 80px;
+}
+
+.home-about {
+  margin-top: 45px;
+  p {
+    text-align: center;
+  }
+  h6 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
