@@ -1,6 +1,10 @@
 # liceul-spartacus
 Proiect de curs.
 
+To run this project you need to have node js in your PC.
+
+https://nodejs.org/en/download/
+
 To run the project do next steps:
   1) "cd api/" - folder
     - run command "npm i"
